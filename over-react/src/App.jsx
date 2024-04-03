@@ -7,8 +7,8 @@ function Details({children}){
 
   return(
     <div style={{display: 'flex', padding: 20, flexWrap: 'wrap', gap: '30px', borderRadius: 25, borderTop: 'solid gray', borderLeft: 'solid gray', backgroundImage: 'linear-gradient(to bottom right, #19197059, #cc99ff)' }}>
-      <div>
-        <img src={foto} alt='Víctor Hugo' width={120} style={{borderRadius: 100}}/>
+      <div style={{borderRadius: '50%', overflow: 'hidden', width:'120px', height:'120px'}}>
+        <img src={foto} alt='Víctor Hugo' width={'100%'} style={{ objectFit: 'cover' }}/>
       </div>
       {children}
     </div>
