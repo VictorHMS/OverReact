@@ -2,6 +2,7 @@ import './App.css'
 import foto from './assets/fotoeu.png'
 import { Conteudo } from './Components/Conteudo'
 import linkedin from './assets/linkedin.png'
+import github from './assets/github.png'
 
 function Details({children}){
 
@@ -19,8 +20,11 @@ function Links(){
 
   return(
   <div style={{marginLeft: 'auto' }}>
+    <a href="https://github.com/VictorHMS" target='_blank' >
+      <img src={github} alt="linkedin" width={30} style={{marginRight: 10, borderRadius: '10%'}}/>
+    </a>
     <a href="https://www.linkedin.com/in/victor-hugo-meirelles-silva-057823220/" target='_blank'>
-      <img src={linkedin} alt="linkedin" width={30}/>
+      <img src={linkedin} alt="linkedin" width={30} style={{marginRight: 10, borderRadius: '10%'}}/>
     </a>
   </div>
   )

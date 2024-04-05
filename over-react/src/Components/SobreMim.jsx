@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { sobre } from '../sobre';
+import { sobre } from '../sobre.jsx';
 import { ToggleIcon } from "../styles";
 
 export function SobreMim({myRef}){
